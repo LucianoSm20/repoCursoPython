@@ -194,3 +194,14 @@
         .social{
             text-align:center;
         }
+
+        .center-text{
+            display: flex;
+            margin-top: 50px;
+            justify-content:center;
+            align-content:center;
+        }
+
+        .margen{
+            margin: 25px;
+        }
