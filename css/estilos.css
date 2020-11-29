@@ -1,19 +1,49 @@
 <style>
+        /* Para versión móvil (Mobile First): */
+        [class*="col-"] {
+            width: 100%;
+            padding: 3px;
+        }
+
+        /* Para versión escritorio o laptop: */
+        @media only screen and (min-width: 768px) {
+            .col-1 {
+                width: 100%;
+            }
+
+            
+            [class*="col-"] {
+                float: left;
+            }
+
+            .row::after {
+                content: "";
+                clear: both;
+                display: flex;
+
+            }
+        }   
+
+
         h1{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             text-align: center;
+            padding: 3px;
         }
 
         p {
             text-align: center;
             font-weight: bold;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 3px;
         }
         #miFooter{ 
             color: gray;
+            padding: 3px;
 
         }
        
+
         * {
             box-sizing: border-box;
         }
