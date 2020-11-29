@@ -1,4 +1,3 @@
-<style>
         /* Para versión móvil (Mobile First): */
         [class*="col-"] {
             width: 100%;
@@ -41,8 +40,7 @@
             color: gray;
             padding: 3px;
 
-        }
-       
+        }     
 
         * {
             box-sizing: border-box;
@@ -148,6 +146,3 @@
                 width: 12.2%;
             }
         }
-
-
-    </style>
