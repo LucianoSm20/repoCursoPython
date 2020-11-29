@@ -36,15 +36,11 @@
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             padding: 3px;
         }
-        #miFooter{ 
-            color: gray;
-            padding: 3px;
-
-        }     
 
         * {
             box-sizing: border-box;
         }
+
 
         ul {
             list-style-type: none;
@@ -147,8 +143,6 @@
             }
         }
 
-
-
         .btnStack {
             font-family: Oswald;
             background-color: orange;
@@ -173,6 +167,30 @@
             user-select: none;
           }
           
-          a.btnStack:hover {
+        a.btnStack:hover {
             background-color: #000;
-          }
+        }
+
+
+        footer {
+            position:absolute;
+            height:100px;
+            line-height:50px;
+            background:black;
+            color:white;
+            text-align:center;
+            left:0;
+            width:100%;
+        }
+          
+        footer.bottom {
+            bottom:0;
+        }
+        
+        .footer-social-media {
+            text-align:center;
+        }
+
+        .social{
+            text-align:center;
+        }
