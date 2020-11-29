@@ -36,15 +36,20 @@
             </span>
         </div>
     </nav>
-
     <img src="img/logo.png" alt="">
-
     </head>
 
     <body>
+        
+        <!-- js "Saludo de bienvenida" -->
+        <script>
+            window.onload=function(){alert('Bienvenido a esta pagina');}
+        </script>
+        
+        <!-- Encabezado calendario--> 
         <h1 class="fondo-destacado">Calendario de Atenciones</h1>
         <p>Haga click en el día que le interesa, para ver la Planificación Diaria:</p>
-
+ 
         <!-- Bloque imagen Calendario -->
         <div class="month">
             <ul>
@@ -101,21 +106,26 @@
             <li>30</li>
             <li>31</li>
         </ul>
+        
+        <!-- js "Imprimir página" -->
+        <input type="button" value="Imprime esta página" onclick="window.print()">
         <br>
         <br>
 
-
-        <div class="container">
-            <p>Enlaces de interés:</p>            
-            <button type="button" class="btn btn-info btn-block", a href="https://www.sernac.cl/portal/619/w3-article-45653.html"> SERNAC </a></button>          
-            <button type="button" class="btn btn-info btn-block", a href="http://www.ist.cl/centros-de-salud/hospital-clinico-ist-vina-del-mar/"> Hospital Clínico</button>
-            <button type="button" class="btn btn-info btn-block", a href="https://www.parquedelmar.cl/"> Cementerio Parque del Mar </button>          
-            <button type="button" class="btn btn-info btn-block", a href="https://samu.cl/"> SAMU </button>
-            <button type="button" class="btn btn-info btn-block", a href="https://www.fonasa.cl/sites/fonasa/inicio"> FONASA </button>          
-            <button type="button" class="btn btn-info btn-block", a href="http://www.supersalud.gob.cl/664/w3-article-2528.html"> Superintendencia de Isapreso</button>
        
+         <!-- Enlaces -->      
+        <div class="container">
+            <p>Enlaces de interés:</p>
+            <a href="http://www.ist.cl/centros-de-salud/hospital-clinico-ist-vina-del-mar/" type="button"
+                class="btn btn-info btn-block">Hospital Clínico</a>
+            <a href="https://www.parquedelmar.cl/" type="button" class="btn btn-info btn-block">Cementerio Parque del
+                Mar</a>
+            <a href="https://samu.cl/" type="button" class="btn btn-info btn-block">SAMU</a>
+            <a href="https://www.fonasa.cl/sites/fonasa/inicio" type="button" class="btn btn-info btn-block">FONASA</a>
+            <a href="http://www.supersalud.gob.cl/664/w3-article-2528.html" type="button"
+                class="btn btn-info btn-block">Superintendencia de Isapres</a>
         </div>
- 
+
 
         <!-- jQuery, Popper.js, Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
